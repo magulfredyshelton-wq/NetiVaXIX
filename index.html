@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NETIVAXIS — visão global, possibilidades sem fronteiras." />
+  <title>NETIVAXIS — Visão global. Possibilidades sem fronteiras</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo-symbol.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="home">
+  <div id="siteHeaderMount"></div>
+  <main>
+    <section class="home-hero">
+      <img class="home-hero-photo" fetchpriority="high" decoding="async" src="assets/hero-office.png" alt="Profissionais reunidos numa sala de reunião" />
+      <canvas class="hero-ghost" id="heroGhost" aria-hidden="true"></canvas>
+      <div class="section-frame home-hero-inner">
+        <div class="home-hero-copy reveal">
+          <p class="eyebrow" data-i18n="home.eyebrow">NETIVAXIS</p>
+          <h1 data-i18n="home.title">Visão global.\nPossibilidades sem fronteiras</h1>
+          <p data-i18n="home.copy">Consultoria personalizada que fortalece serviços e posiciona a sua marca com
+            credibilidade</p>
+          <a class="button light" href="sobre-nos.html"><span data-i18n="home.cta">Sobre nós</span><i
+              data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+        <p class="hero-scroll"><span data-i18n="home.scroll">SCROLL</span><i data-lucide="arrow-down"
+            aria-hidden="true"></i></p>
+      </div>
+      <div class="hero-logo-float" aria-hidden="true"><img decoding="async" src="assets/logo-symbol.svg" alt="" /></div>
+    </section>
+
+    <section class="home-values">
+      <div class="section-frame">
+        <p class="eyebrow" data-i18n="home.valuesEyebrow">O que nos orienta</p>
+        <h2 class="section-title dark" data-i18n="home.valuesTitle">A confiança do nosso cliente é o nosso ponto de
+          partida</h2>
+        <div class="values-grid">
+          <article class="value-card reveal"><img loading="lazy" decoding="async" src="assets/light.png" alt="" />
+            <h3 data-i18n="values.innovation.title">Inovação</h3>
+            <p data-i18n="values.innovation.copy">Promovemos soluções criativas e tecnológicas que antecipam tendências
+              e impulsionam resultados.</p>
+          </article>
+          <article class="value-card reveal"><img loading="lazy" decoding="async" src="assets/icon-integrity.svg" alt="" />
+            <h3 data-i18n="values.integrity.title">Integridade</h3>
+            <p data-i18n="values.integrity.copy">Atuamos com rigor, ética e excelência em cada projeto, garantindo
+              credibilidade e confiança.</p>
+          </article>
+          <article class="value-card reveal"><img loading="lazy" decoding="async" src="assets/icon-cultural.svg" alt="" />
+            <h3 data-i18n="values.cultural.title">Perspectiva cultural</h3>
+            <p data-i18n="values.cultural.copy">Valorizamos a diversidade e a identidade local, integrando diferentes
+              culturas para enriquecer experiências.</p>
+          </article>
+          <article class="value-card reveal"><img loading="lazy" decoding="async" src="assets/icon-global.svg" alt="" />
+            <h3 data-i18n="values.global.title">Visão global</h3>
+            <p data-i18n="values.global.copy">Conectamos mercados e oportunidades, posicionando cada projeto com alcance
+              internacional.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-services">
+      <div class="section-frame">
+        <div class="home-services-header">
+          <div>
+            <p class="eyebrow" data-i18n="home.servicesEyebrow">Nossos serviços</p>
+            <h2 class="section-title dark" data-i18n="home.servicesTitle">Soluções com direção. Cuidado em cada detalhe.
+            </h2>
+          </div><a class="button" href="servicos.html"><span data-i18n="home.servicesCta">Ver todos os serviços</span><i
+              data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="service-teaser-grid">
+          <article class="service-teaser reveal"><img loading="lazy" decoding="async" src="assets/service-generated-2.png"
+              alt="Duas pessoas a fechar uma parceria" />
+            <h3 data-i18n="services.business.title">Desenvolvimento de negócio</h3>
+            <p data-i18n="services.business.copy">Transformar ambição em direção. Estratégia, oportunidades e relações
+              para crescer com clareza.</p><a class="service-link" href="desenvolvimento-negocio.html"><span
+                data-i18n="services.explore">Explorar o serviço</span><i data-lucide="arrow-up-right"
+                aria-hidden="true"></i></a>
+          </article>
+          <article class="service-teaser reveal"><img loading="lazy" decoding="async" src="assets/service-generated-1.png"
+              alt="Pessoa a assinar contrato de habitação" />
+            <h3 data-i18n="services.house.title">House management</h3>
+            <p data-i18n="services.house.copy">Cuidar do seu espaço com tranquilidade. Gestão atenta às necessidades da
+              propriedade.</p><a class="service-link" href="house-management.html"><span
+                data-i18n="services.explore">Explorar o serviço</span><i data-lucide="arrow-up-right"
+                aria-hidden="true"></i></a>
+          </article>
+          <article class="service-teaser reveal"><img loading="lazy" decoding="async" src="assets/service-ponta-douro.png"
+              alt="Praia de Ponta d'Ouro" />
+            <h3 data-i18n="services.tourism.title">Turismo</h3>
+            <p data-i18n="services.tourism.copy">Descobrir com um novo olhar. Experiências que ligam interesses à
+              identidade de cada destino.</p><a class="service-link" href="turismo.html"><span
+                data-i18n="services.explore">Explorar o serviço</span><i data-lucide="arrow-up-right"
+                aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-about">
+      <div class="section-frame home-about-grid"><img loading="lazy" decoding="async" class="reveal" src="assets/service-generated-3.png"
+          alt="Equipa NETIVAXIS reunida" />
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="home.aboutEyebrow">Sobre nós</p>
+          <h2 data-i18n="home.aboutTitle">Uma visão ampla. Um compromisso próximo.</h2>
+          <p data-i18n="home.aboutCopy">A NETIVAXIS liga desenvolvimento de negócio, gestão de propriedades e turismo
+            numa abordagem integrada. Acreditamos que as melhores soluções começam por compreender as pessoas, os seus
+            desafios e o lugar onde querem chegar.</p><a class="button light" href="sobre-nos.html"><span
+              data-i18n="home.aboutCta">Conheça a NETIVAXIS</span><i data-lucide="arrow-up-right"
+              aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-contact-cta">
+      <div class="section-frame home-contact-cta-inner">
+        <h2 data-i18n="home.contactTitle">Conhecer o seu projeto é o nosso primeiro passo.</h2><a class="button filled"
+          href="contacto.html"><span data-i18n="home.contactCta">Enviar uma mensagem</span><i
+            data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+      </div>
+    </section>
+  </main>
+  <div id="siteFooterMount"></div>
+  <script src="https://unpkg.com/lucide@0.468.0"></script>
+  <script src="site-shell.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

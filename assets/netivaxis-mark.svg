@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title">
+  <title id="title">NETIVAXIS mark</title>
+  <path d="M32 5L52.8 17V41L32 53L11.2 41V17L32 5Z" stroke="#73E1D2" stroke-width="3"/>
+  <path d="M21 22.3L32 28.7L43 22.3M21 33.1L32 39.5L43 33.1M32 28.7V39.5" stroke="#F07B62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

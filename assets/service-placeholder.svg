@@ -1,0 +1,10 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#101C25"/>
+  <path d="M0 630C190 520 265 620 440 485C625 342 720 510 855 350C985 196 1080 255 1200 140" stroke="#73E1D2" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M0 682C190 572 265 672 440 537C625 394 720 562 855 402C985 248 1080 307 1200 192" stroke="#F07B62" stroke-opacity=".28" stroke-width="2" stroke-dasharray="7 10"/>
+  <g fill="#73E1D2" fill-opacity=".85">
+    <circle cx="204" cy="558" r="5"/><circle cx="440" cy="485" r="5"/><circle cx="720" cy="510" r="5"/><circle cx="855" cy="350" r="5"/><circle cx="1080" cy="255" r="5"/>
+  </g>
+  <text x="72" y="112" fill="#F4F8F7" fill-opacity=".72" font-family="Arial, sans-serif" font-size="28" letter-spacing="8">NETIVAXIS / IMAGE SLOT</text>
+  <text x="72" y="158" fill="#73E1D2" fill-opacity=".72" font-family="Arial, sans-serif" font-size="14" letter-spacing="3">REPLACE WITH SERVICE IMAGE</text>
+</svg>

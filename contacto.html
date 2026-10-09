@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Entre em contacto com a NETIVAXIS." />
+    <title>NETIVAXIS — Contacto</title>
+    <link rel="icon" type="image/svg+xml" href="assets/logo-symbol.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body data-page="contact">
+    <div id="siteHeaderMount"></div>
+    <main>
+      <section class="contact-hero">
+        <div class="section-frame contact-hero-grid">
+          <div>
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contacto</p>
+            <h1 data-i18n="contact.title">
+              Toda a possibilidade começa numa conversa.
+            </h1>
+          </div>
+        </div>
+      </section>
+      <section class="contact-details">
+        <div class="section-frame contact-details-grid">
+          <div class="contact-facts">
+            <article class="contact-fact">
+              <h2 data-i18n="contact.phone">Telefone</h2>
+              <p>(+258) 88 888 8888</p>
+            </article>
+            <article class="contact-fact">
+              <h2 data-i18n="contact.email">E-mail</h2>
+              <p>geral@netivaxis.co.mz</p>
+            </article>
+            <article class="contact-fact">
+              <h2 data-i18n="contact.address">Endereço</h2>
+              <p>Av. Joaquim Chissano, nº 1234 R/c<br />Maputo, Moçambique</p>
+            </article>
+          </div>
+          <img
+            loading="lazy"
+            decoding="async"
+            class="contact-photo reveal"
+            src="assets/contact-photo.png"
+            alt="Profissional disponível para atender clientes"
+          />
+        </div>
+      </section>
+      <section class="contact-form-section">
+        <div class="section-frame contact-form-layout">
+          <aside class="contact-form-aside">
+            <h2 data-i18n="contact.hintsTitle">
+              Algumas indicações para tornar o primeiro contacto mais simples.
+            </h2>
+            <div class="hint-list">
+              <article>
+                <h3 data-i18n="contact.hint1Title">
+                  1. O que devo incluir na mensagem?
+                </h3>
+                <p data-i18n="contact.hint1Copy">
+                  Descreva o que procura, a área de interesse e os principais
+                  objetivos.
+                </p>
+              </article>
+              <article>
+                <h3 data-i18n="contact.hint2Title">
+                  2. Posso contactar para propor uma parceria?
+                </h3>
+                <p data-i18n="contact.hint2Copy">
+                  Sim. Selecione a opção de parceria no assunto e apresente a
+                  sua organização.
+                </p>
+              </article>
+              <article>
+                <h3 data-i18n="contact.hint3Title">
+                  3. Se ainda não souber de que serviço preciso?
+                </h3>
+                <p data-i18n="contact.hint3Copy">
+                  Conte-nos o que procura. Ajudamos a clarificar o melhor ponto
+                  de partida.
+                </p>
+              </article>
+            </div>
+          </aside>
+          <form class="contact-form" id="contactForm" novalidate>
+            <h2 data-i18n="contact.formTitle">Envie uma mensagem</h2>
+            <div class="form-grid">
+              <label
+                ><span data-i18n="form.name">*Nome</span
+                ><input
+                  type="text"
+                  name="name"
+                  required
+                  data-i18n-placeholder="form.namePlaceholder"
+                  placeholder="O seu nome" /></label
+              ><label
+                ><span data-i18n="form.email">*E-mail</span
+                ><input
+                  type="email"
+                  name="email"
+                  required
+                  data-i18n-placeholder="form.emailPlaceholder"
+                  placeholder="O seu e-mail" /></label
+              ><label class="full"
+                ><span data-i18n="form.subject">*Assunto</span
+                ><select name="subject" id="subjectSelect" required>
+                  <option value="" data-i18n="form.subjectChoose">
+                    Selecione a área de interesse
+                  </option>
+                  <option
+                    value="Desenvolvimento de Negócio"
+                    data-service="business"
+                    data-i18n="services.business.titlePlain"
+                  >
+                    Desenvolvimento de negócio
+                  </option>
+                  <option
+                    value="House Management"
+                    data-service="house"
+                    data-i18n="services.house.titlePlain"
+                  >
+                    House Management
+                  </option>
+                  <option
+                    value="Turismo"
+                    data-service="tourism"
+                    data-i18n="services.tourism.title"
+                  >
+                    Turismo
+                  </option>
+                  <option
+                    value="Parceiro / colaboração"
+                    data-i18n="form.partner"
+                  >
+                    Parceiro / colaboração
+                  </option>
+                  <option value="Outro" data-i18n="form.other">Outro</option>
+                </select></label
+              ><label class="full other-subject" id="otherSubjectWrap" hidden
+                ><span data-i18n="form.otherLabel">Especifique o assunto</span
+                ><input
+                  type="text"
+                  name="otherSubject"
+                  id="otherSubject"
+                  data-i18n-placeholder="form.otherPlaceholder"
+                  placeholder="Sobre o que quer falar?" /></label
+              ><label class="full"
+                ><span data-i18n="form.message">*Mensagem</span
+                ><textarea
+                  name="message"
+                  rows="6"
+                  required
+                  data-i18n-placeholder="form.messagePlaceholder"
+                  placeholder="Como podemos ajudar? Fale mais do seu projeto."
+                ></textarea>
+              </label>
+            </div>
+            <p class="contact-small" data-i18n="form.required">
+              *Campos obrigatórios
+            </p>
+            <button class="button filled form-submit" type="submit">
+              <span data-i18n="form.submit">Enviar uma mensagem</span
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </button>
+            <p
+              class="form-feedback"
+              id="formFeedback"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div id="siteFooterMount"></div>
+    <script src="https://unpkg.com/lucide@0.468.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="site-shell.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
